@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lhr.mdt1.MainActivity"
+    android:id="@+id/main"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_snackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SnackBar"/>
+    <Button
+        android:id="@+id/btn_lp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Progress"/>
+    <Button
+        android:id="@+id/btn_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CardView"
+        />
+    <Button
+        android:id="@+id/btn_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tabs"
+        />
+    <Button
+        android:id="@+id/btn_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alerts"/>
+    <Button
+        android:id="@+id/btn_textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textinputlayout"/>
+    <Button
+        android:id="@+id/btn_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floating Action Button"/>
+    <Button
+        android:id="@+id/btn_cdl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout"/>
+    <Button
+        android:id="@+id/btn_navigationdrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NavigationDrawer "/>
+    <Button
+        android:id="@+id/btn_TranslucentActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translucent"
+        />
+    <Button
+        android:id="@+id/btn_NestedScrolling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NestedScrolling"/>
+</LinearLayout>
