@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void showLocationDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this, R.style.MyDialogTheme);
         builder.setTitle("我是Title");
-        builder.setMessage("我是Message,Message,Message.........");
+        builder.setMessage("我是主内容Message.....................");
 
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
