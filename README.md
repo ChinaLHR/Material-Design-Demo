@@ -5,3 +5,4 @@
 ![](https://raw.githubusercontent.com/ChinaLHR/Material-Design-Demo/master/gif/1.gif)
 ![](https://raw.githubusercontent.com/ChinaLHR/Material-Design-Demo/master/gif/2.gif)
 ![](https://raw.githubusercontent.com/ChinaLHR/Material-Design-Demo/master/gif/3.gif)
+![](https://github.com/ChinaLHR/Material-Design-Demo/blob/master/gif/be.gif)
