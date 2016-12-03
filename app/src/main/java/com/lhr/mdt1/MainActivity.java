@@ -16,6 +16,7 @@ import com.lhr.mdt1.activity.FabActivity;
 import com.lhr.mdt1.activity.LinearProgressActivity;
 import com.lhr.mdt1.activity.NavigationDrawerActivity;
 import com.lhr.mdt1.activity.SnackBarActivity;
+import com.lhr.mdt1.activity.SwipeRefreshActivity;
 import com.lhr.mdt1.activity.TabsActivity;
 import com.lhr.mdt1.activity.TextInputActivity;
 import com.lhr.mdt1.activity.TranslucentActivity;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_cdl;
     private Button btn_navigationdrawer;
     private Button btn_TranslucentActivity;
-    private Button btn_NestedScrolling;
+    private Button btn_SwipeRefreshLayout;
     private Intent mIntent;
 
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_navigationdrawer = (Button) findViewById(R.id.btn_navigationdrawer);
         btn_textinputlayout = (Button) findViewById(R.id.btn_textinputlayout);
         btn_TranslucentActivity = (Button) findViewById(R.id.btn_TranslucentActivity);
-        btn_NestedScrolling = (Button) findViewById(R.id.btn_NestedScrolling);
+        btn_SwipeRefreshLayout = (Button) findViewById(R.id.btn_SwipeRefreshLayout);
         btn_snackbar.setOnClickListener(this);
         btn_lp.setOnClickListener(this);
         btn_card.setOnClickListener(this);
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_cdl.setOnClickListener(this);
         btn_navigationdrawer.setOnClickListener(this);
         btn_TranslucentActivity.setOnClickListener(this);
-        btn_NestedScrolling.setOnClickListener(this);
+        btn_SwipeRefreshLayout.setOnClickListener(this);
     }
 
 
@@ -106,7 +107,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mIntent = new Intent(MainActivity.this, TranslucentActivity.class);
                 startActivity(mIntent);
                 break;
-          
+            case R.id.btn_SwipeRefreshLayout:
+                mIntent = new Intent(MainActivity.this, SwipeRefreshActivity.class);
+                startActivity(mIntent);
+                break;
 
         }
     }

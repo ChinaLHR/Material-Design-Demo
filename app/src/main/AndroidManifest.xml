@@ -25,6 +25,7 @@
         <activity android:name=".activity.NavigationDrawerActivity"/>
         <activity android:name=".activity.TranslucentActivity"
             android:theme="@style/ImageTranslucentTheme"/>
+        <activity android:name=".activity.SwipeRefreshActivity"/>
     </application>
 
 </manifest>
