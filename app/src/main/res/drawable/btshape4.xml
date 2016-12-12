@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 设置渐变效果為线性渐变 ，渐变开始颜色与渐变结束颜色-->
+    <gradient
+        android:type="linear"
+        android:startColor="#e65100"
+        android:endColor="#ffb74d"
+        />
+    <!-- corners设置圆角，只适用于rectangle -->
+    <corners android:radius="150dp" />
+</shape>

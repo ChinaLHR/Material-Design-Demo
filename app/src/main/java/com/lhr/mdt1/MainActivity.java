@@ -15,6 +15,7 @@ import com.lhr.mdt1.activity.CoordinatorLayout;
 import com.lhr.mdt1.activity.FabActivity;
 import com.lhr.mdt1.activity.LinearProgressActivity;
 import com.lhr.mdt1.activity.NavigationDrawerActivity;
+import com.lhr.mdt1.activity.SearchActivity;
 import com.lhr.mdt1.activity.SnackBarActivity;
 import com.lhr.mdt1.activity.SwipeRefreshActivity;
 import com.lhr.mdt1.activity.TabsActivity;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_navigationdrawer;
     private Button btn_TranslucentActivity;
     private Button btn_SwipeRefreshLayout;
+    private Button btn_SearchActivity;
     private Intent mIntent;
 
 
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_textinputlayout = (Button) findViewById(R.id.btn_textinputlayout);
         btn_TranslucentActivity = (Button) findViewById(R.id.btn_TranslucentActivity);
         btn_SwipeRefreshLayout = (Button) findViewById(R.id.btn_SwipeRefreshLayout);
+        btn_SearchActivity = (Button) findViewById(R.id.btn_SearchActivity);
         btn_snackbar.setOnClickListener(this);
         btn_lp.setOnClickListener(this);
         btn_card.setOnClickListener(this);
@@ -62,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_navigationdrawer.setOnClickListener(this);
         btn_TranslucentActivity.setOnClickListener(this);
         btn_SwipeRefreshLayout.setOnClickListener(this);
+        btn_SearchActivity.setOnClickListener(this);
     }
 
 
@@ -109,6 +113,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_SwipeRefreshLayout:
                 mIntent = new Intent(MainActivity.this, SwipeRefreshActivity.class);
+                startActivity(mIntent);
+                break;
+            case R.id.btn_SearchActivity:
+                mIntent = new Intent(MainActivity.this, SearchActivity.class);
                 startActivity(mIntent);
                 break;
 

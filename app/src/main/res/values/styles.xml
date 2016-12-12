@@ -79,4 +79,10 @@
     <style name="ImageTranslucentTheme" parent="AppTheme">
         <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
     </style>
+    <style name="SearchViewTheme" >
+        <!--激活颜色 蓝色-->
+        <item name="colorControlActivated">#3f51b5</item>
+        <!--没激活的颜色 绿色-->
+        <item name="colorControlNormal">#009688</item>
+    </style>
 </resources>
